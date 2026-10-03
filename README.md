@@ -7,7 +7,7 @@ The CNN Challenge
 | | |
 |---|---|
 | Model | ResNet-18 pretrained on ImageNet-1K |
-| Validation accuracy | **93.75%** (best epoch 13 of 15) |
+| Validation accuracy | **93.54%** (best epoch 13 of 15) |
 | Test accuracy | **92.50%** (evaluated once, on the final model only) |
 | Checkpoint | [final_resnet18.pt](https://drive.google.com/file/d/1IulKS8ge4OIGy-EDSy9srA7OV_AqL47i/view?usp=sharing) |
 
