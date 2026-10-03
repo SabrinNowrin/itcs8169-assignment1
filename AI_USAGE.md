@@ -25,6 +25,6 @@ I also checked batch shapes, the train/validation overlap, and that the saved ch
 reproduced my test accuracy.
 
 ## A Decision I Made Myself
-[To begin with, the obvious choice was to start testing the epoch number and learning rate, then 
+To begin with, the obvious choice was to start testing the epoch number and learning rate, then 
 changed the greyscale with color and then data augmentation and finally pretrained imagenet model, as we heard a 
-lot about imagenet and resnet and alexnet, it was a clear choice to try a pretrained model with the assignment.]
+lot about imagenet and resnet and alexnet, it was a clear choice to try a pretrained model with the assignment.
