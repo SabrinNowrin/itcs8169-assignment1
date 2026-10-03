@@ -56,14 +56,15 @@ drive.mount('/content/gdrive')
 `train.py` takes about 4 minutes on a Colab GPU. Results may vary slightly between runs because of GPU randomness.
 
 ## Environment
-- Google Colab, GPU: ____
-- PyTorch 2.11.0, torchvision ____
+- Google Colab, GPU: v6e-1 TPU
+- PyTorch 2.11.0, torchvision 0.24.0+cpu
+
 - Random seed: 0
 
 ## Experiments
 | Experiment | Validation Acc. | Observation |
 |---|---|---|
-| Baseline (starter TNet, grayscale, 64×64) | ____% | |
-| + Color (RGB) | ____% | |
-| + Augmentation (crop + flip) | ____% | |
+| Baseline (starter TNet, grayscale, 64×64) | 49.79% | |
+| + Color (RGB) | 51.88% | |
+| + Augmentation (crop + flip) | 60.21% | |
 | + Pretrained ResNet-18, 224×224 (final) | 93.75% | |
